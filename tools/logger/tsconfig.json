@@ -1,9 +1,6 @@
 {
   "extends": "./node_modules/@nd/toolchain-cli/includes/tsconfig.build.json",
-  "include": ["**/*.ts"],
-  "exclude": ["node_modules", "lib"],
   "compilerOptions": {
-    "rootDir": "src",
-    "outDir": "lib"
+    "types": []
   }
 }
