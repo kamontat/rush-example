@@ -1,0 +1,10 @@
+{
+  "extends": "./includes/tsconfig.build.json",
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules", "lib"],
+  "compilerOptions": {
+    "types": ["node"],
+    "rootDir": "src",
+    "outDir": "lib"
+  }
+}

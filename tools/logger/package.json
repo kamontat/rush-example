@@ -1,0 +1,12 @@
+{
+  "name": "@nd/toolchain-logger",
+  "version": "0.1.0-alpha.1",
+  "description": "logger service for nd",
+  "license": "MIT",
+  "scripts": {
+    "build": "node_modules/@nd/toolchain-cli/bin/compile.js"
+  },
+  "devDependencies": {
+    "@nd/toolchain-cli": "0.1.0-beta.1"
+  }
+}
